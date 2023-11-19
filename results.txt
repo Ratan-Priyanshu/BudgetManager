@@ -1,0 +1,26 @@
+--------------------------------------------------------------------
+Category           Budget         Spent    Over(-)/Under 
+--------------------------------------------------------------------
+Housing              3.00          3.00          0.00
+Utilities            3.00          3.00          0.00
+House Hold           3.00          3.00          0.00
+Transportation       3.00          3.00          0.00
+Food                 3.00          3.00          0.00
+Medical              3.00          3.00          0.00
+Insurance            3.00          3.00          0.00
+Entertainment        3.00          3.00          0.00
+Clothing             3.00          3.00          0.00
+Miscellaneous        3.00          3.00          0.00
+--------------------------------------------------------------------
+Category           Budget         Spent    Over(-)/Under 
+--------------------------------------------------------------------
+Housing              3.00          3.00          0.00
+Utilities            3.00          3.00          0.00
+House Hold           3.00          3.00          0.00
+Transportation       3.00          3.00          0.00
+Food                 3.00          3.00          0.00
+Medical              3.00          3.00          0.00
+Insurance            3.00          3.00          0.00
+Entertainment        3.00          3.00          0.00
+Clothing             3.00          3.00          0.00
+Miscellaneous        3.00          3.00          0.00
