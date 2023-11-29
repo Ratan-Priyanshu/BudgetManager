@@ -219,7 +219,6 @@ void DailyExpenses::addDailyExpense(const MonthlyBudget& mb)
     categories.push_back(mb.getCategories()[categoryChoice - 1]);
 }
 // ...
-
 void DailyExpenses::displayExpensesVsBudget(const MonthlyBudget& mb) const {
     cout << "\nExpenses vs Budget:\n";
     cout << fixed << showpoint << setprecision(2);
@@ -270,23 +269,13 @@ void DailyExpenses::displayExpensesVsBudget(const MonthlyBudget& mb) const {
         double totalExpensesForCategory = 0.0;
 
         // Sum expenses for the current category
-        // Sum expenses for the current category
-        for (size_t i = 0; i < mb.getCategories().size(); ++i)
+        for (size_t j = 0; j < categories.size(); ++j)
         {
-            // ...
-
-            // Sum expenses for the current category
-            for (size_t j = 0; j < categories.size(); ++j)
+            if (categories[j] == mb.getCategories()[i])
             {
-                if (categories[j] == mb.getCategories()[i])
-                {
-                    totalExpensesForCategory += expenses[j];
-                }
+                totalExpensesForCategory += expenses[j];
             }
-
-            
         }
-
 
         cout << right << setw(15) << totalExpensesForCategory;
         double overUnder = mb.getBudgets()[i] - totalExpensesForCategory;
